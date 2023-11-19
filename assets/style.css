@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
+}
+
+.bgStyle {
+  background: radial-gradient(#b6d6ff, #8f98ff);
+  width: 100%;
+}
+
+.row .col-6 img {
+  width: 90%;
+}
+
+.col-6 h1 {
+  padding-top: 20px;
+  font-size: 50px;
+  line-height: 60px;
+}
+
+.btn {
+  background-color: #2472e6;
+  color: white;
+  padding: 8px 30px;
+  margin: 25px 0;
+  border-radius: 30px;
+  transition: background-color 0.5s;
+}
+
+.btn:hover {
+  background-color: #101011;
+  color: white;
+}
+
+.categories {
+  margin: 70px 0;
+}
+
+.categories .col-3 {
+  min-width: 325px;
+  margin-bottom: 30px;
+}
+
+.col-3 img {
+  width: 100%;
+}
+
+.col-3 .card {
+  width: 200px;
+}
+
+/*image hover*/
+
+#img1:hover {
+  content: url("image/hover1.webp");
+  transform: translateY(-5px);
+}
+
+#img2:hover {
+  content: url("image/hover2.webp");
+  transform: translateY(-5px);
+}
+
+#img3:hover {
+  content: url("image/hover3.webp");
+  transform: translateY(-5px);
+}
+
+#img4:hover {
+  content: url("image/hover4.webp");
+  transform: translateY(-5px);
+}
+
+/*card hover*/
+.card:hover {
+  transform: translateY(-15px);
+  transition: transform 0.7s;
+}
+
+.container {
+  margin-bottom: 80px;
+  ;
+}
+
+/* offer */
+.exclusive {
+  font-size: 20px;
+  letter-spacing: 1px;
+  color: #000000;
+}
+
+/*temoignage*/
+.temoignage {
+  padding-top: 100px;
+}
+
+.temoignage #temoi {
+  transition: transform 0.3s;
+}
+
+.temoignage #temoi img {
+  width: 50px;
+  border-radius: 50%;
+}
+
+.temoignage #temoi:hover {
+  transform: translateY(-10px);
+}

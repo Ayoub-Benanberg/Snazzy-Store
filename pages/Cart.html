@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Cart Snazzy-Store</title>
+    <link rel="icon" href="/assets/image/logo-white.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/style.css">
+</head>
+
+<body class="overflow-x-hidden">
+    <!--navbar-->
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg m-5 mt-0">
+            <a class="navbar-brand" href="#"><img src="/assets/image/logo-no-background.png" alt="logo"
+                    style="width: 125px"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link" href="Home.html">Home</a>
+                    <a class="nav-link" href="Products.html">Products</a>
+                    <a class="nav-link" href="Product-details.html">View Product</a>
+                    <a class="nav-link" href="Contact.html">Contact</a>
+                    <a class="nav-link" href="Account.html">Account</a>
+                    <a class="nav-link" href="Cart.html">
+                        <i class="bi bi-cart text-black text-center"></i>
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <!--- Cart items -->
+
+    <div class="container">
+        <div class="title">
+            <div class="row">
+                <div class="col">
+                    <h4><b>Shopping Cart</b></h4>
+                </div>
+                <div class="col text-end text-muted">2 items</div>
+            </div>
+        </div>
+        <div class="row text-black border-top border-bottom">
+            <div class="row main align-items-center mb-2 mt-2">
+                <div class="col-2"><img class="img-fluid" src="/assets/image/detail2.webp"></div>
+                <div class="col">
+                    <div class="row text-muted">Shoes</div>
+                    <div class="row">Nike Dunk Low</div>
+                </div>
+                <div class="col text-center">
+                    -<input type="number" value="1" class="col-1 text-center m-1">+
+                </div>
+                <div class="col text-end ">$269.99 <span class="close">&#10005;</span></div>
+            </div>
+            <div class="row main align-items-center mb-2 mt-2 border-top">
+                <div class="col-2"><img class="img-fluid mt-2" src="/assets/image/latest3.jpeg"></div>
+                <div class="col">
+                    <div class="row text-muted">Shoes</div>
+                    <div class="row">Nike Dunk Next Nature</div>
+                </div>
+                <div class="col text-center">
+                    -<input type="number" value="1" class="col-1 text-center m-1">+
+                </div>
+                <div class="col text-end ">$169.99 <span class="close">&#10005;</span></div>
+            </div>
+            <div class="row main align-items-center mb-2 mt-2">
+                <div class="row mt-3 text-end"><h5>SubTotale : $439.98</h5> </div>
+            </div>
+        </div>
+    </div>
+
+    <!--  Footer -->
+    <div class="footer">
+        <div class="container-fluid bg-light ">
+            <div class="row">
+                <footer class="p-3 m-4">
+                    <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+                        <li class="nav-item"><a href="Home.html" class="nav-link px-2 text-body-secondary">Home</a></li>
+                        <li class="nav-item"><a href="Products.html"
+                                class="nav-link px-2 text-body-secondary">Products</a></li>
+                        <li class="nav-item"><a href="Product-details.html"
+                                class="nav-link px-2 text-body-secondary">View Product</a></li>
+                        <li class="nav-item"><a href="Contact.html"
+                                class="nav-link px-2 text-body-secondary">Contact</a></li>
+                        <li class="nav-item"><a href="Account.html"
+                                class="nav-link px-2 text-body-secondary">Account</a></li>
+                    </ul>
+                    <p class="text-center text-body-secondary">&copy; 2023 Snazzy-Store</p>
+                </footer>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
