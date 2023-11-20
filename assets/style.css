@@ -5,6 +5,10 @@
   font-family: "Rubik", sans-serif;
 }
 
+body{
+  overflow-x: hidden;
+}
+
 .bgStyle {
   background: radial-gradient(#b6d6ff, #8f98ff);
   width: 100%;
